@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/greetingFragment">
+
+    <fragment
+        android:id="@+id/greetingFragment"
+        android:name="com.example.helloapp.screens.greeting.GreetingFragment"
+        android:label="GreetingFragment"
+        tools:layout="@layout/fragment_greeting">
+        <action
+            android:id="@+id/action_greetingFragment_to_userCredentialsFragment"
+            app:destination="@id/userCredentialsFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/userCredentialsFragment"
+        android:name="com.example.helloapp.screens.credentials.UserCredentialsFragment"
+        android:label="UserCredentialsFragment"
+        tools:layout="@layout/fragment_user_credentials"
+    >
+        <action
+            android:id="@+id/action_userCredentialsFragment_to_greetingFragment"
+            app:destination="@id/greetingFragment"
+            app:popUpTo="@id/greetingFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+</navigation>
