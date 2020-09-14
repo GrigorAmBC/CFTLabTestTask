@@ -27,6 +27,7 @@ class UserCredentialsFragment : Fragment() {
       container,
       false
     )
+    binding.lifecycleOwner = this
 
     credentialsViewModel = ViewModelProvider(this)
       .get(UserCredentialsViewModel::class.java)
