@@ -1,14 +1,13 @@
 package com.example.helloapp.screens
 
-import android.graphics.Bitmap
+import android.net.Uri
 import android.widget.ImageView
-
 import androidx.databinding.BindingAdapter
 
 
-@BindingAdapter("imageBitmap")
-fun loadImage(iv: ImageView, bitmap: Bitmap?) {
-    if (bitmap != null) {
-        iv.setImageBitmap(bitmap)
+@BindingAdapter("imageUri")
+fun loadImage(iv: ImageView, imageUri: Uri?) {
+    if (imageUri != null) {
+        iv.setImageURI(imageUri)
     }
 }

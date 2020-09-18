@@ -7,8 +7,7 @@
     <string name="confirm_your_password">Confirm your password</string>
     <string name="sign_up">sign up</string>
     <string name="greeting">Hello</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="some_quote">Самая ужасная трата времени — это делать хорошо то, что не надо делать вообще</string>
     <string name="log_out">Log out</string>
     <string name="choose_avatar">Choose avatar</string>
+    <string name="write_permission_not_granted">Cannot pick image without read/write permissions</string>
 </resources>
