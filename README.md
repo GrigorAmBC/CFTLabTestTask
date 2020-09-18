@@ -4,5 +4,8 @@
 Требования
 Для Android допускаются языки: Java, Kotlin.
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](https://www.google.ru/url?sa=i&url=https%3A%2F%2Fwww.history.com%2Ftopics%2Fus-politics%2Fjohn-mccain&psig=AOvVaw1fw8rYEwt0monbLt8qp39a&ust=1600172941643000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMig8fDS6OsCFQAAAAAdAAAAABAF)
+<img src="images/credentials_screen.jpg" width=300>
+
+<img src="images/greeting_screen.jpg" width=300>
+
+<img src="images/menu_on_greeting_screen.jpg" width=300>
